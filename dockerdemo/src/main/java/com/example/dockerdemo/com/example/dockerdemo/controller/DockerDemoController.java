@@ -11,7 +11,7 @@ public class DockerDemoController {
     @RequestMapping("/api1")
     @GetMapping
     public String homepage(){
-        return "home API 1";
+        return "Testing for swagger";
     }
 
 }
